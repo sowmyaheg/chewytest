@@ -1,0 +1,23 @@
+/target/
+# List of files and folders that should not be tracked by Git #
+#Robot report files
+.html
+.xml
+# OS generated files #
+.DS_Store
+*.pyc
+*$py.class
+# Eclipse workspace related files #
+.classpath
+.project
+.pydevproject
+.settings/
+# Build target folder #
+target/
+logs/
+
+=======
+# Build target folder #
+target/
+logs/
+bin/
