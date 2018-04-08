@@ -5,21 +5,11 @@ import org.testng.annotations.*;
 import com.webapp.automation.src.HomePage;
 
 public class LoginPageTests {
+	
+	@BeforeTest
+	
 
-	String usrName="sowmya";
-	String password="test";
-	
-//	@Test
-	public void testPageLaunch(){
-		HomePage.launchPage();
-	}
-	
-//	@Test
-//	public void testLogin(){
-//		HomePage.userLogin(usrName, password);
-//		
-//	}
-	
+		
 //	@Test
 	public void testSearchItem(){
 		HomePage.launchChewy();
